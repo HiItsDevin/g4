@@ -1,37 +1,28 @@
 {
-  "name": "g4-electron",
-  "version": "4.6.0",
+  "name": "g4x",
+  "version": "4.7.0",
   "description": "A distraction-less version of The Theorist Gateway gate 4 minigame.",
   "main": "main.js",
   "scripts": {
     "test": "electron .",
-    "start": "electron ."
+    "start": "electron .",
+    "macBuilder": "sudo chmod +x ./scripts/build-scripts/macBuilder.sh && ./scripts/build-scripts/macBuilder.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scintilla4evr/g4.git"
+    "url": "git+https://github.com/team-g4/g4x.git"
   },
-  "author": "HiItsDevin_ and scintilla4evr",
-  "license": "ISC",
+  "author": "Team G4",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scintilla4evr/g4/issues"
+    "url": "https://github.com/team-g4/g4x/issues"
   },
-  "homepage": "https://github.com/scintilla4evr/g4#readme",
-  "devDependencies": {
-    "electron": "^6.0.8"
-  },
+  "homepage": "https://github.com/team-g4/g4x#readme",
   "dependencies": {
-    "audio-play": "^2.2.1",
-    "buzz": "^1.2.1",
-    "custom-electron-titlebar": "^3.1.0",
-    "dataurl": "^0.1.0",
-    "discord-rpc": "^3.0.2",
-    "howler": "^2.1.2",
-    "nan": "^2.14.0",
-    "node-gyp": "^5.0.3",
-    "node-mp3-player": "^1.0.3",
-    "pizzicato": "^0.6.4",
-    "play-sound": "^1.1.3",
-    "windows-build-tools": "^5.2.2"
+    "discord-rpc": "^3.1.0",
+    "electron": "^7.1.2",
+    "electron-debug": "^3.0.1",
+    "electron-installer-dmg": "^3.0.0",
+    "path-exists": "^4.0.0"
   }
 }
