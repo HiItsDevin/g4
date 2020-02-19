@@ -11,3 +11,5 @@ Current Release version: https://github.com/Team-G4/g4x/releases/tag/v7.0
 
 [1]:  https://discordapp.com/api/guilds/632990721552678923/widget.png?style=banner2
 [2]:  http://discord.gg/BKB4ft2
+
+🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀🦀
